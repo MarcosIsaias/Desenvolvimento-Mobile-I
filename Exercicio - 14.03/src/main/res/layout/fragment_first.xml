@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <TableLayout
+        android:id="@+id/size"
+        android:layout_width="357dp"
+        android:layout_height="350dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="16dp"
+        android:addStatesFromChildren="false"
+        android:baselineAligned="false"
+        android:clipToPadding="false"
+        android:longClickable="false"
+        android:measureWithLargestChild="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/telaResultado">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:clipToPadding="false">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:text="1"
+                android:textSize="48sp"
+                app:backgroundTint="#5E35B1" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:text="2"
+                android:textSize="48sp"
+                app:backgroundTint="#5E35B1" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:text="3"
+                android:textSize="48sp"
+                app:backgroundTint="#5E35B1" />
+
+            <Button
+                android:id="@+id/soma"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:text="+"
+                android:textSize="48sp"
+                app:backgroundTint="#3949AB" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:text="4"
+                android:textSize="48sp"
+                app:backgroundTint="#5E35B1" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:text="5"
+                android:textSize="48sp"
+                app:backgroundTint="#5E35B1" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:text="6"
+                android:textSize="48sp"
+                app:backgroundTint="#5E35B1" />
+
+            <Button
+                android:id="@+id/subtracao"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:text="-"
+                android:textSize="48sp"
+                app:backgroundTint="#3949AB" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:text="7"
+                android:textSize="48sp"
+                app:backgroundTint="#5E35B1" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:text="8"
+                android:textSize="48sp"
+                app:backgroundTint="#5E35B1" />
+
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:text="9"
+                android:textSize="48sp"
+                app:backgroundTint="#5E35B1" />
+
+            <Button
+                android:id="@+id/divisao"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:text="x"
+                android:textSize="48sp"
+                app:backgroundTint="#3949AB" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn0"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:text="0"
+                android:textSize="48sp"
+                app:backgroundTint="#5E35B1" />
+
+            <Button
+                android:id="@+id/button_first"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:text="@string/next" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/multiplicacao"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:text="/"
+                android:textSize="48sp"
+                app:backgroundTint="#3949AB" />
+
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/telaCalculo"
+        android:layout_width="352dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:background="#5E35B1"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:textColor="#FDFDFD"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/telaCalculo2"
+        android:layout_width="352dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="117dp"
+        android:background="#5E35B1"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:textColor="#FDFDFD"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/telaCalculo" />
+
+    <TextView
+        android:id="@+id/telaResultado"
+        android:layout_width="352dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="157dp"
+        android:background="#3949AB"
+        android:text="RESULTADO"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/telaCalculo2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
